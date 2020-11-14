@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Form</title>
+</head>
+<body>
+	<form action="success.html" method="post"> 
+		<label for="name">Name</label>
+		<input type="text" name="uname" id="name" autofocus placeholder="Bo Bo" autocomplete="" required="">
+		<br>
+		<label for="password">Password</label>
+		<input type="password" name="psw" id="password" placeholder="@#$%" required="">
+		<br>
+		<label for="ph">Phone</label>
+		<input type="number" name="phone" id="ph" autocomplete="" readonly="" value="123456">
+		<br>
+		Gender 
+		<input type="radio" name="gender" id="male"> 
+		<label for="male">male</label>
+		<input type="radio" name="gender" id="female"> 
+		<label for="female">female</label>
+		<br>
+		Hobby
+		<input type="checkbox" name="" id="read"> 
+		<label for="read">Reading</label> <br>
+		<input type="checkbox" name="" id="write"> 
+		<label for="write">Writing</label> <br>
+		<input type="checkbox" name="" id="sleep"> 
+		<label for="sleep">Sleeping</label>
+		<br>
+		<label for="address">Adress</label>
+		<textarea id="address" rows="5" cols="25"></textarea>
+		<br>
+		File <input type="file" name="" multiple required=""> 
+		<br>
+		City
+		<select>
+			<option>Yangon</option>
+			<option>mandalay</option>
+			<option>Naypyitaw</option>
+		</select>
+
+		<!-- Hidden
+		<input type="hidden" name=""> -->
+		<br>
+		<input type="submit" name="" value="Confirm">
+		<input type="reset" name="" value="Cancel">		
+	</form>
+</body>
+</html>
+
